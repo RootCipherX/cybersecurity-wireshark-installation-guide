@@ -18,7 +18,7 @@ This repository documents the installation, dependency resolution, and security-
 
 Rather than executing the analyzer with unrestricted root privileges, this implementation enforces the **Principle of Least Privilege (PoLP)** by configuring dedicated Linux user group permissions. This ensures the underlying packet capture engine (`dumpcap`) operates with dedicated capture capabilities while the complex GUI dissectors run in an unprivileged user context.
 
-## 🛠️ System & Environment Specifications
+## System & Environment Specifications
 *   **Operating System:** Kali Linux (Kernel `6.19.14+kali-amd64`)
 *   **Target User:** `RootCipherX`
 *   **Software Version:** Wireshark `4.6.6`
